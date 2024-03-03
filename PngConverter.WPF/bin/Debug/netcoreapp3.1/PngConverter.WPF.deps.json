@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PngConverter.WPF/1.0.0": {
+        "dependencies": {
+          "WPF.Core": "1.0.0"
+        },
+        "runtime": {
+          "PngConverter.WPF.dll": {}
+        }
+      },
+      "WPF.Core/1.0.0": {
+        "runtime": {
+          "WPF.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PngConverter.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WPF.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

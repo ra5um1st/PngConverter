@@ -1,0 +1,123 @@
+﻿<Window x:Class="PngConverter.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PngConverter.WPF" 
+        xmlns:converters="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        mc:Ignorable="d"
+        Title="Image Converter" MinHeight="450" MinWidth="800">
+    <Window.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        <Style x:Key="DefaultButtonStyle" TargetType="Button">
+            <Setter Property="Padding" Value="10 5"/>
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="2 5"/>
+        </Style>
+    </Window.Resources>
+    <Grid
+        Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel 
+            Orientation="Horizontal">
+            <Button
+                Content="Выбрать изображение"
+                Command="{Binding SelectImageCommand}"
+                Style="{StaticResource DefaultButtonStyle}"
+                Margin="5 5 2 5"/>
+            <Button
+                Content="Конвертировать"
+                Command="{Binding ConvertImageCommand}"
+                Style="{StaticResource DefaultButtonStyle}"/>
+            <Button
+                Content="Сохранить"
+                Command="{Binding SaveConvertedImageCommand}"
+                Style="{StaticResource DefaultButtonStyle}"/>
+        </StackPanel>
+
+        <Grid
+            Grid.Row="1"
+            Background="FloralWhite">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Grid.Column="0"
+                Margin="2"
+                Source="{Binding SelectedImage, IsAsync=True}"/>
+            <TextBlock
+                Grid.Column="0"
+                Text="Загрузка..."
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                FontSize="16">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsImageLoading, IsAsync=True}" Value="False">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+            
+            <Image
+                Grid.Column="1"
+                Margin="2"
+                Source="{Binding ConvertedImage}"/>
+            <TextBlock
+                Grid.Column="1"
+                Text="Загрузка..."
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                FontSize="16">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsImageConverting}" Value="False">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>
+
+        <StackPanel
+            Grid.Row="2"
+            Orientation="Horizontal">
+            <GroupBox 
+                Header="Размер исходного изображения">
+                <TextBlock
+                    Text="{Binding SelectedImageSize, FallbackValue='0 байт'}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Margin="2"/>
+            </GroupBox>
+            <GroupBox Header="Время загрузки изображения">
+                <TextBlock
+                    Text="{Binding LoadingImageTime}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Margin="2"/>
+            </GroupBox>
+            <GroupBox Header="Время конвертации изображения">
+                <TextBlock
+                    Text="{Binding ConvertingImageTime}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Margin="2"/>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>

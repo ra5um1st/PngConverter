@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PngConverter.WPF", "PngConverter.WPF\PngConverter.WPF.csproj", "{D69D675B-A339-44D2-9885-BCC59A66EABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Core", "WPF.Core\WPF.Core.csproj", "{6E2E7087-8805-49F4-908F-2E1652B64C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D69D675B-A339-44D2-9885-BCC59A66EABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69D675B-A339-44D2-9885-BCC59A66EABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69D675B-A339-44D2-9885-BCC59A66EABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69D675B-A339-44D2-9885-BCC59A66EABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2E7087-8805-49F4-908F-2E1652B64C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2E7087-8805-49F4-908F-2E1652B64C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2E7087-8805-49F4-908F-2E1652B64C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2E7087-8805-49F4-908F-2E1652B64C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D05D8984-D065-4965-BB63-517E9E96B9ED}
+	EndGlobalSection
+EndGlobal

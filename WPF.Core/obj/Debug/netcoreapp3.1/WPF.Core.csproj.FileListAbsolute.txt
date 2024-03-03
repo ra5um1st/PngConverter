@@ -1,0 +1,20 @@
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\bin\Debug\netcoreapp3.1\WPF.Core.deps.json
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\bin\Debug\netcoreapp3.1\WPF.Core.dll
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\bin\Debug\netcoreapp3.1\WPF.Core.pdb
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.csproj.AssemblyReference.cache
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.AssemblyInfoInputs.cache
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.AssemblyInfo.cs
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.csproj.CoreCompileInputs.cache
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.dll
+C:\Users\hour2\Desktop\Проекты\Тестовые  задания\Тестовое задание БК студия\BK-S-master\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.pdb
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\bin\Debug\netcoreapp3.1\WPF.Core.deps.json
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\bin\Debug\netcoreapp3.1\WPF.Core.dll
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\bin\Debug\netcoreapp3.1\WPF.Core.pdb
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.csproj.AssemblyReference.cache
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.AssemblyInfoInputs.cache
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.AssemblyInfo.cs
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.csproj.CoreCompileInputs.cache
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.dll
+C:\Users\hour2\Desktop\Проекты\PngConverter\WPF.Core\obj\Debug\netcoreapp3.1\WPF.Core.pdb
